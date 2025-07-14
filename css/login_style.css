@@ -24,7 +24,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 76px 0 20px;
+  padding: 122px 0 20px;
   position: relative;
 }
 .log-sec > div > div {
@@ -173,7 +173,6 @@ a {
   }
   .log-sec {
     background: white;
-    padding: 20px 0;
   }
   .log-car {
     margin: 0 auto 20px;

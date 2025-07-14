@@ -137,13 +137,12 @@ label:last-child {
 @media screen and (max-width: 992px) {
   .signup-sec {
     background: white;
-    padding: 60px 0 20px;
   }
   .signup-sec .col-6 {
     width: 100%;
   }
   .sign-form-inputs > div:not(:last-child) {
-    max-width: 100%;
+    /* max-width: 100%; */
   }
   .signupvertical,
   .signpoint {
@@ -171,6 +170,6 @@ label:last-child {
     padding: 11px 35px;
   }
   .signup-sec {
-    padding: 40px 0;
+    padding-bottom: 10px;
   }
 }

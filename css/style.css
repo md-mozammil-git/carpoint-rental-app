@@ -337,6 +337,9 @@ ul a:hover {
   padding: 140px 0 20px;
   color: white;
 }
+.banner-row {
+  align-items: center;
+}
 .banner-content > h1 {
   max-width: 480px;
   margin-bottom: 31px;
@@ -965,6 +968,11 @@ ul a:hover {
   }
   .contact-sec {
     padding-top: 100px;
+  }
+}
+@media screen and (max-width: 1113px) {
+  .nav-right {
+    gap: 25px;
   }
 }
 @media screen and (max-width: 992px) {
