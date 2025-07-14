@@ -11,7 +11,7 @@ ul {
   padding: 0;
 }
 .signup-sec .col-6 {
-  padding: 0 15px;
+  padding: 0 15px !important;
 }
 /* Sign up section */
 .signup-sec {
