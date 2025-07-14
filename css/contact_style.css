@@ -1,0 +1,220 @@
+:root {
+  --primary-color: #ffae00;
+  --secondary-color: #f8f8f8;
+  --tertiary-color: #8d8d8d;
+}
+/* Banner section */
+#contact-outlined {
+  font-size: 100px;
+  text-align: left;
+}
+#us-about {
+  top: 34px;
+}
+/* Get in touch section */
+
+.gettch-sec {
+  padding-top: 120px;
+}
+.gettch-sec > div > div {
+  align-items: center;
+}
+.gettch-left > div.heads {
+  margin-bottom: 24px;
+}
+.gettch-left > p {
+  margin-bottom: 83px;
+}
+.gettch-sec i {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+}
+.email-icon:hover i,
+.phone-icon:hover i,
+.address-icon:hover i {
+  color: #060606;
+  transition: color 0.7s ease;
+}
+.gettch-left .email,
+.gettch-left .phone,
+.gettch-left .address {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 27px 0;
+  border-bottom: 1px solid #ececec;
+}
+.email-icon,
+.phone-icon,
+.address-icon {
+  min-width: 66px;
+  height: 66px;
+  background-color: #f6eff8;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.em-info > p,
+.ph-info > p,
+.add-info > p {
+  color: #919191;
+  text-wrap: nowrap;
+  margin-bottom: 14px;
+}
+.em-info > div,
+.ph-info > div,
+.add-info > div {
+  font-size: 14px;
+  color: #060606;
+  font-weight: 500;
+}
+.gettch-right {
+  padding: 52px 41px 61px 41px;
+  box-shadow: 0 39px 56px -26px rgba(0, 0, 0, 0.13);
+  max-width: 582px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.gettch-right input,
+.gettch-right textarea {
+  width: 100%;
+  border-radius: 5px;
+}
+.gettch-right label {
+  display: inline-block;
+  margin-bottom: 13px;
+  font-size: 14px;
+}
+.gettch-right input {
+  padding: 23px 0 22px 20px;
+}
+.gettch-right textarea {
+  padding: 23px 0 96px 20px;
+  resize: none;
+}
+.gettch-btn {
+  text-align: center;
+  margin-top: 10px;
+}
+.gettch-btn > a {
+  padding: 15px 50px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+}
+.gettch-right > div:not(:last-child) {
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 1024px) {
+  #contact-outlined {
+    font-size: 80px;
+  }
+  #us-about {
+    top: 29px;
+    font-size: 182px;
+    right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gettch-sec {
+    padding: 80px 0 30px;
+  }
+  .gettch-sec .col-50 {
+    width: 100%;
+  }
+  .gettch-sec > div > div > div:first-child {
+    margin-bottom: 30px;
+  }
+  .gettch-right {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 850px) {
+  #contact-outlined {
+    font-size: 58px;
+  }
+  #us-about {
+    top: 25px;
+    font-size: 133px;
+    right: 51px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  /* Banner section */
+  #contact-outlined {
+    font-size: 37px;
+  }
+  #us-about {
+    top: 16px;
+    font-size: 82px;
+    right: 42px;
+  }
+  .gettch-sec {
+    padding: 50px 0 40px;
+  }
+  .gettch-left > div.heads {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .gettch-left > p {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .em-info > div,
+  .ph-info > div,
+  .add-info > div {
+    font-size: 11px;
+  }
+  .email-icon,
+  .phone-icon,
+  .address-icon {
+    height: 44px;
+    min-width: 44px;
+  }
+  .gettch-sec i {
+    font-size: 1rem;
+  }
+  .em-info > p,
+  .ph-info > p,
+  .add-info > p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .gettch-right {
+    padding: 42px 31px 51px 31px;
+  }
+  .gettch-right > div:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  #contact-outlined {
+    font-size: 28px;
+  }
+  #us-about {
+    top: 21px;
+    font-size: 49px;
+    right: 27px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* Banner section */
+  #us-about {
+    right: 0;
+  }
+  .gettch-right input {
+    padding: 18px 0 15px 12px;
+  }
+  .gettch-right textarea {
+    padding: 23px 0 50px 20px;
+  }
+  .gettch-btn > a {
+    padding: 10px 32px;
+  }
+}
