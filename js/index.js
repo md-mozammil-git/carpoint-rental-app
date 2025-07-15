@@ -149,3 +149,54 @@ const observer = new IntersectionObserver(
 counters.forEach((counter) => {
   observer.observe(counter);
 });
+
+// layout for mobile Booking section
+const moblayout = document.querySelector(".sort-layout");
+const sortbtn = document.querySelector(".sorting");
+const radiobtn = document.querySelectorAll(".sort-layout input");
+
+// function for opening sort portion
+function opensort() {
+  moblayout.classList.add("sort-active");
+  body.classList.add("menu-open");
+}
+function closesort() {
+  moblayout.classList.remove("sort-active");
+  body.classList.remove("menu-open");
+}
+sortbtn.addEventListener("click", opensort);
+
+radiobtn.forEach((radio) => {
+  radio.addEventListener("click", closesort);
+});
+
+// document.addEventListener("click", (e) => {
+//   const isClickInside = moblayout.contains(e.target);
+//   if (!isClickInside) {
+//     moblayout.classList.remove("sort-active");
+//     body.classList.remove("menu-open");
+//   }
+// });
+
+// Filter layout for booking section
+const filteropenbtn = document.querySelector(".filterbtn");
+const filterclosebtn = document.querySelector(".back-btn");
+const filterpanel = document.querySelector(".filter-layout");
+const box = document.querySelectorAll(".filter-layout input");
+
+// function for open filter panel
+function openfilter() {
+  filterpanel.classList.add("filter-active");
+  body.classList.add("menu-open");
+}
+// functoin for close filter panel
+function closefilter() {
+  filterpanel.classList.remove("filter-active");
+  body.classList.remove("menu-open");
+}
+filteropenbtn.addEventListener("click", openfilter);
+filterclosebtn.addEventListener("click", closefilter);
+
+box.forEach((box) => {
+  box.addEventListener("click", closefilter);
+});

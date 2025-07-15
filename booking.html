@@ -175,6 +175,7 @@
         </div>
       </div>
     </section>
+
     <!-- Booking card section -->
     <section class="bkcd-sec">
       <div class="container">
@@ -343,8 +344,13 @@
               <div>
                 <p>35 Car available for rent in Deshapriya Park Kolkata</p>
                 <div>
+                  <span class="Filter"
+                    ><i class="fa-solid fa-sort filterbtn"></i> Filter</span
+                  >
                   <span>Sort by</span
-                  ><span><img src="./assets/Group.png" alt="" /></span>
+                  ><span class="sorting"
+                    ><img src="./assets/Group.png" alt=""
+                  /></span>
                 </div>
               </div>
               <div class="row row2">
@@ -842,8 +848,102 @@
         </div>
       </div>
     </section>
+    <!-- layout for mobile -->
+    <section class="sort-layout">
+      <div class="container">
+        <div class="sort-top">SORT BY</div>
+        <div>
+          <label for="Popularity">Popularity</label>
+          <input type="radio" name="Popularity" id="Popularity" />
+        </div>
+        <div>
+          <label for="Price -- Low to High">Price -- Low to High</label>
+          <input type="radio" name="Popularity" id="Price -- Low to High" />
+        </div>
+        <div>
+          <label for="Price -- High to Low">Price -- High to Low</label>
+          <input type="radio" name="Popularity" id="Price -- High to Low" />
+        </div>
+        <div>
+          <label for="Newest First">Newest First</label>
+          <input type="radio" name="Popularity" id="Newest First" />
+        </div>
+      </div>
+    </section>
+    <section class="filter-layout">
+      <div class="container">
+        <div>
+          <i class="fa-solid fa-arrow-left back-btn"></i><span>Filter</span>
+        </div>
+        <div>
+          <div class="brands">
+            <div>brands</div>
+            <label for="All">
+              <input type="checkbox" name="" id="All" />
+              All
+            </label>
+            <br />
+            <label for="SUV">
+              <input type="checkbox" name="" id="SUV" />
+              SUV
+            </label>
+            <br />
+            <label for="Sedean">
+              <input type="checkbox" name="Sedean" id="Sedean" />
+              Sedean
+            </label>
+            <br />
+            <label for="MUV">
+              <input type="checkbox" name="MUV" id="MUV" />
+              MUV
+            </label>
+            <br />
+            <label for=" Hatch Back">
+              <input type="checkbox" name="Hatch Back" id=" Hatch Back" />
+              Hatch Back
+            </label>
+          </div>
+          <div class="Cap">
+            <div>Capacity</div>
+            <label for="All">
+              <input type="checkbox" name="" id="All" />
+              All
+            </label>
+            <br />
+            <label for="SUV">
+              <input type="checkbox" name="" id="SUV" />
+              SUV
+            </label>
+            <br />
+            <label for="Sedean">
+              <input type="checkbox" name="Sedean" id="Sedean" />
+              Sedean
+            </label>
+            <br />
+            <label for="MUV">
+              <input type="checkbox" name="MUV" id="MUV" />
+              MUV
+            </label>
+            <br />
+            <label for=" Hatch Back">
+              <input type="checkbox" name="Hatch Back" id=" Hatch Back" />
+              Hatch Back
+            </label>
+          </div>
+          <div class="fl-bt">
+            <div>
+              <h4>134</h4>
+              <p>Products found</p>
+            </div>
+            <div>
+              <a href="" class="btn-effect">Apply</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Contact section -->
-    <section class="contact-sec">
+    <!-- <section class="contact-sec">
       <div class="sm-container">
         <div class="form-wrpr">
           <div data-aos="fade-up" data-aos-duration="1000" class="form-head">
@@ -888,10 +988,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Footer section -->
-    <footer class="ft-sec">
+    <!-- <footer class="ft-sec">
       <div class="container">
         <div class="row">
           <div class="col-25">
@@ -964,7 +1064,7 @@
           reserved.
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- Swiper js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
