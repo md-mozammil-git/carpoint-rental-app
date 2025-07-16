@@ -550,7 +550,7 @@ ul a:hover {
   text-align: center;
   margin-bottom: 10px;
 }
-.cat-top > div {
+.cat-top > h2 {
   margin-bottom: 16px;
 }
 .cat-top > p {
@@ -570,7 +570,7 @@ ul a:hover {
   text-align: center;
   margin-bottom: 65px;
 }
-.why-hdr > div {
+.why-hdr > h2 {
   margin-bottom: 6px;
 }
 .why-hdr > p {
@@ -631,7 +631,7 @@ ul a:hover {
   text-align: center;
   margin-bottom: 26px;
 }
-.reviews-hdr > div {
+.reviews-hdr > h2 {
   margin-bottom: 6px;
 }
 .reviews-hdr > p {
@@ -1116,11 +1116,11 @@ ul a:hover {
   .cat-sec {
     padding: 40px 0 30px;
   }
-  .cat-top > div {
+  .cat-top > h2 {
     font-size: 24px;
   }
   /* Why choose section */
-  .why-hdr > div {
+  .why-hdr > h2 {
     font-size: 24px;
   }
   .why-content > div > div:last-child > div {
@@ -1131,7 +1131,7 @@ ul a:hover {
   }
 
   /* Client reviews section */
-  .reviews-hdr > div {
+  .reviews-hdr > h2 {
     font-size: 24px;
   }
   .reviews-content {

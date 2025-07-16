@@ -456,7 +456,7 @@
   }
 }
 @media screen and (max-width: 576px) {
-  .booking-banner-sec-cnt > div {
+  .booking-banner-sec-cnt > h1 {
     font-size: 38px;
   }
   .bookcard-img > img {
