@@ -75,7 +75,7 @@
   margin-bottom: 20px;
   color: var(--primary-color);
 }
-.abt-content > h1.cmn-heading {
+.abt-content > h2.cmn-heading {
   font-size: 40px;
   max-width: 424px;
   margin-bottom: 40px;

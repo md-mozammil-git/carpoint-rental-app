@@ -19,7 +19,7 @@
 .gettch-sec > div > div {
   align-items: center;
 }
-.gettch-left > div.heads {
+.gettch-left > h2.heads {
   margin-bottom: 24px;
 }
 .gettch-left > p {
@@ -156,7 +156,7 @@
   .gettch-sec {
     padding: 50px 0 40px;
   }
-  .gettch-left > div.heads {
+  .gettch-left > h2.heads {
     font-size: 24px;
     text-align: center;
     margin-bottom: 15px;

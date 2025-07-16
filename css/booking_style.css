@@ -94,7 +94,14 @@
 .filter-line {
   display: none;
 }
-
+button {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
 .filter > i {
   cursor: pointer;
   font-size: 1.2rem;
