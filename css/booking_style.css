@@ -101,6 +101,7 @@ button {
   align-items: center;
   gap: 8px;
   font-weight: 600;
+  color: black;
 }
 .filter > i {
   cursor: pointer;
