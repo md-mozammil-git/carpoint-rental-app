@@ -182,7 +182,7 @@ radiobtn.forEach((radio) => {
 const filteropenbtn = document.querySelector(".filterbtn");
 const filterclosebtn = document.querySelector(".back-btn");
 const filterpanel = document.querySelector(".filter-layout");
-const box = document.querySelectorAll(".filter-layout input");
+const secclosebtn = document.querySelector(".filterclose");
 
 // function for open filter panel
 function openfilter() {
@@ -196,7 +196,4 @@ function closefilter() {
 }
 filteropenbtn.addEventListener("click", openfilter);
 filterclosebtn.addEventListener("click", closefilter);
-
-box.forEach((box) => {
-  box.addEventListener("click", closefilter);
-});
+secclosebtn.addEventListener("click", closefilter);

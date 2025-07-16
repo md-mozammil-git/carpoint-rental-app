@@ -786,10 +786,10 @@ ul a:hover {
   color: #ada9a9;
   margin-bottom: 18px;
 }
-.form-content > div:last-child {
+.form-content > a:last-child {
   max-width: 180px;
 }
-.form-content > div:last-child > img {
+.form-content > a:last-child > img {
   width: 100%;
   object-fit: contain;
 }
@@ -819,7 +819,9 @@ ul a:hover {
   background: var(--primary-color);
   border-radius: 5px;
 }
-
+.form-content > a:last-child:hover {
+  transform: scale(1.1);
+}
 /* Footer section */
 .ft-line {
   width: 100%;
@@ -1165,9 +1167,13 @@ ul a:hover {
   .formcar {
     margin-bottom: 18px;
   }
-  .form-content > div:last-child {
-    margin: 0 auto;
+  .form-content {
+    text-align: center;
   }
+  .form-content p {
+    display: none;
+  }
+
   /* Footer section */
   .comp-logo .fa-brands {
     font-size: 16px;
@@ -1198,9 +1204,6 @@ ul a:hover {
     font-size: 9px;
   }
   /* Contact section*/
-  .form-content p {
-    display: none;
-  }
 }
 @media screen and (max-width: 425px) {
   /* Banner section */
