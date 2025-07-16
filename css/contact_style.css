@@ -6,10 +6,14 @@
 /* Banner section */
 #contact-outlined {
   font-size: 100px;
-  text-align: left;
+  text-align: right;
+  line-height: 0.8;
 }
-#us-about {
-  top: 34px;
+
+.about-banner-content > h1 > span:last-child {
+  color: #3b2a00;
+  -webkit-text-stroke: black;
+  font-size: 250px;
 }
 /* Get in touch section */
 
@@ -111,13 +115,14 @@
   #contact-outlined {
     font-size: 80px;
   }
-  #us-about {
-    top: 29px;
-    font-size: 182px;
-    right: 0;
+  .about-banner-content > h1 > span:last-child {
+    font-size: 180px;
   }
 }
 @media screen and (max-width: 768px) {
+  .about-banner-content > h1 > span:last-child {
+    font-size: 140px;
+  }
   .gettch-sec {
     padding: 80px 0 30px;
   }
@@ -148,10 +153,8 @@
   #contact-outlined {
     font-size: 37px;
   }
-  #us-about {
-    top: 16px;
-    font-size: 82px;
-    right: 42px;
+  .about-banner-content > h1 > span:last-child {
+    font-size: 100px;
   }
   .gettch-sec {
     padding: 50px 0 40px;
@@ -193,8 +196,14 @@
   }
 }
 @media screen and (max-width: 425px) {
+  #contact-banner {
+    padding-bottom: 64px;
+  }
   #contact-outlined {
     font-size: 28px;
+  }
+  .about-banner-content > h1 > span:last-child {
+    font-size: 71px;
   }
   #us-about {
     top: 21px;
