@@ -466,10 +466,9 @@ button {
   }
   .booking-banner-float > div > div > div > div {
     font-size: 11px;
+    justify-content: center;
   }
-  .booking-banner-float {
-    padding: 49px 36px 48px 36px;
-  }
+
   .booking-banner-float > div {
     row-gap: 20px;
   }
@@ -480,6 +479,7 @@ button {
   .booking-banner-float {
     padding: 29px 36px 17px 36px;
     top: 123px;
+    text-align: center;
   }
 }
 @media screen and (max-width: 576px) {
@@ -562,13 +562,20 @@ button {
   .booking-banner-float {
     padding: 20px 24px 17px 20px;
     top: 183px;
+    text-align: left;
   }
   .booking-banner-float > div > div:last-child > a {
     padding: 8px 10px;
   }
+  .booking-banner-float h3 {
+    font-size: 13px;
+  }
+  .booking-banner-float > div > div > div > div {
+    justify-content: start;
+  }
 }
 @media screen and (max-width: 375px) {
-  .booking-banner-float h3 {
-    font-size: 14px;
+  .booking-banner-float > div > div > div > div {
+    font-size: 9px;
   }
 }
