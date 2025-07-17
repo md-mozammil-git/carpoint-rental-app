@@ -480,6 +480,7 @@ button {
     padding: 29px 36px 17px 36px;
     top: 123px;
     text-align: center;
+    width: 90%;
   }
 }
 @media screen and (max-width: 576px) {
