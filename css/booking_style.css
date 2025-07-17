@@ -484,6 +484,11 @@ button {
   }
 }
 @media screen and (max-width: 576px) {
+  .booking-banner-float > div > div:last-child > a {
+    padding: 8px 10px 8px 14px;
+    font-size: 14px;
+  }
+
   .booking-banner-sec-cnt > h1 {
     font-size: 38px;
   }
@@ -497,6 +502,7 @@ button {
   .bookcard-cnt > div:last-child > a {
     font-size: 13px;
   }
+
   /* .bookcard-cnt > div:first-child,
   .bookcard-cnt > div:nth-child(2) {
     font-size: 9px;
@@ -565,9 +571,7 @@ button {
     top: 183px;
     text-align: left;
   }
-  .booking-banner-float > div > div:last-child > a {
-    padding: 8px 10px;
-  }
+
   .booking-banner-float h3 {
     font-size: 13px;
   }
