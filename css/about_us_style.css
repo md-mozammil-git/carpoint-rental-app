@@ -22,17 +22,20 @@
   -webkit-text-stroke: 2px gray;
   font-weight: bold;
   text-transform: uppercase;
+  line-height: 0.8;
+}
+.outlined > span {
+  display: block;
+}
+
+.aboutUs {
+  display: block;
+  color: #3b2a00;
+  -webkit-text-stroke: black;
+  font-size: 250px;
   text-align: right;
 }
-.us {
-  position: absolute;
-  font-size: 230px;
-  color: rgb(139 105 32 / 50%);
-  font-weight: bold;
-  text-transform: uppercase;
-  top: 60px;
-  right: 0;
-}
+
 .about-banner-img {
   max-width: 982px;
 }
@@ -84,7 +87,9 @@
   max-width: 530px;
   font-size: 14px;
 }
-
+.abt-sec {
+  padding-top: 120px;
+}
 @media screen and (max-width: 1024px) {
   /*About Us section */
   .abt-sec .col-50 {
@@ -103,10 +108,8 @@
     font-size: 100px;
     text-align: left;
   }
-  .us {
-    font-size: 171px;
-    top: 55px;
-    right: 40px;
+  .aboutUs {
+    font-size: 205px;
   }
   .about-multicar-img {
     bottom: -58px;
@@ -120,38 +123,34 @@
   .abt-top {
     margin-bottom: 50px;
   }
+  .abt-sec {
+    padding-top: 60px;
+  }
 }
 @media screen and (max-width: 768px) {
   .outlined {
     font-size: 80px;
   }
-  .us {
-    font-size: 114px;
-    top: 54px;
-    right: 79px;
+  .aboutUs {
+    font-size: 145px;
   }
+
   .about-banner-sec {
-    padding-bottom: 100px;
+    padding-bottom: 120px;
   }
 }
 @media screen and (max-width: 576px) {
   .outlined {
     font-size: 47px;
   }
-  .us {
-    font-size: 85px;
-    top: 29px;
+  .aboutUs {
+    font-size: 96px;
   }
   .about-multicar-img {
     bottom: -31px;
   }
 }
 
-@media screen and (max-width: 425px) {
-  .us {
-    right: 0;
-  }
-}
 @media screen and (max-width: 420px) {
   .abt-top > h1,
   .abt-content > h2.cmn-heading {
@@ -163,13 +162,15 @@
   .abt-content > div.heads {
     font-size: 20px;
   }
+  .aboutUs {
+    font-size: 60px;
+  }
+  .about-banner-sec {
+    padding-bottom: 60px;
+  }
 }
 @media screen and (max-width: 320px) {
   .outlined {
     font-size: 37px;
-  }
-  .us {
-    font-size: 72px;
-    top: 24px;
   }
 }

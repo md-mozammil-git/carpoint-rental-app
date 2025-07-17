@@ -205,18 +205,11 @@
   .about-banner-content > h1 > span:last-child {
     font-size: 71px;
   }
-  #us-about {
-    top: 21px;
-    font-size: 49px;
-    right: 27px;
-  }
 }
 
 @media screen and (max-width: 375px) {
   /* Banner section */
-  #us-about {
-    right: 0;
-  }
+
   .gettch-right input {
     padding: 18px 0 15px 12px;
   }
