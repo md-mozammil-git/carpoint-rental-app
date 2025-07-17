@@ -46,6 +46,7 @@
   position: relative;
   top: 190px;
   z-index: 888;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .booking-banner-float h3 {
   font-weight: 600;
@@ -416,18 +417,13 @@ button {
   color: white;
 }
 @media screen and (max-width: 1200px) {
-  .booking-banner-float {
-    display: none;
-  }
   .bkcd-sec > div > div > div:first-child {
     display: none;
   }
   .bkcd-sec > div > div > div:last-child {
     width: 100%;
   }
-  .bkcd-sec {
-    padding-top: 100px;
-  }
+
   .section-right > div:first-child > div:nth-child(2) {
     display: block;
   }
@@ -463,6 +459,29 @@ button {
     /* margin-right: 300px; */
   }
 }
+
+@media screen and (max-width: 992px) {
+  .booking-banner-float h3 {
+    font-size: 16px;
+  }
+  .booking-banner-float > div > div > div > div {
+    font-size: 11px;
+  }
+  .booking-banner-float {
+    padding: 49px 36px 48px 36px;
+  }
+  .booking-banner-float > div {
+    row-gap: 18px;
+  }
+  .booking-banner-float .col-20 {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .booking-banner-float {
+    padding: 29px 36px 17px 36px;
+    top: 123px;
+  }
+}
 @media screen and (max-width: 576px) {
   .booking-banner-sec-cnt > h1 {
     font-size: 38px;
@@ -493,7 +512,7 @@ button {
     font-size: 11px;
   }
   .bkcd-sec {
-    padding-top: 50px;
+    padding-top: 130px;
   }
   /* .section-right > div:first-child {
     flex-direction: column;
@@ -539,5 +558,17 @@ button {
 @media screen and (max-width: 425px) {
   .booking-banner-sec-cnt > h1 {
     font-size: 24px;
+  }
+  .booking-banner-float {
+    padding: 29px 24px 17px 20px;
+    top: 183px;
+  }
+  .booking-banner-float > div > div:last-child > a {
+    padding: 8px 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .booking-banner-float h3 {
+    font-size: 14px;
   }
 }
