@@ -114,6 +114,15 @@
   .about-multicar-img {
     bottom: -58px;
   }
+
+  /* About us section */
+  .abt-content > div.heads {
+    margin-bottom: 15px;
+  }
+  .abt-top > h1,
+  .abt-content > h2.cmn-heading {
+    margin-bottom: 25px;
+  }
 }
 @media screen and (max-width: 576px) {
   .abt-top > h1,
