@@ -1222,6 +1222,23 @@ ul a:hover {
   .swiperbtn-prev {
     display: none;
   }
+  /* why choose us section*/
+  .why-content > div:first-child,
+  .why-content > div:nth-child(2) {
+    margin-bottom: 15px;
+  }
+  .why-content > div {
+    gap: 10px;
+  }
+  .calling {
+    font-size: 1.2rem;
+    min-width: 40px;
+    height: 40px;
+  }
+  .why-content > div > div:last-child > div {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
   /* Contact section */
   .contact-sec {
     padding-top: 40px;
