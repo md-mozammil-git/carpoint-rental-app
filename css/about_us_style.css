@@ -90,7 +90,7 @@
 .abt-sec {
   padding-top: 120px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   /*About Us section */
   .abt-sec .col-50 {
     width: 100%;
