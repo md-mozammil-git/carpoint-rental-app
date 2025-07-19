@@ -1033,9 +1033,16 @@ ul a:hover {
   .client-reviews .col-50 {
     width: 100%;
   }
-  .client-content > p,
-  .client-content > div:first-child {
+  .client-row {
+    row-gap: 30px;
+  }
+  .client-content > div:first-child,
+  .client-content > p {
     max-width: 100%;
+    text-align: center;
+  }
+  .search {
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 768px) {
