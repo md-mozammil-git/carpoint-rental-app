@@ -103,6 +103,7 @@ button {
   gap: 8px;
   font-weight: 600;
   color: black;
+  cursor: pointer;
 }
 .filter > i {
   cursor: pointer;
