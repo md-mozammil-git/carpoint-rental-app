@@ -95,12 +95,17 @@
   .abt-sec .col-50 {
     width: 100%;
   }
+
   .abt-img {
     margin: 0 auto 30px;
+  }
+  .abt-content > div.heads {
+    text-align: center;
   }
   .abt-content > p,
   .abt-content > h2.cmn-heading {
     max-width: 100%;
+    text-align: center;
   }
 }
 @media screen and (max-width: 992px) {
