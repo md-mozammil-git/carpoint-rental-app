@@ -534,7 +534,7 @@ ul a:hover {
   font-weight: 600;
 }
 .chk-btm > a {
-  padding: 2px 14px;
+  padding: 8px 28px;
   background-color: var(--primary-color);
   color: #000000;
   font-size: 11px;
